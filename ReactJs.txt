@@ -1,0 +1,5 @@
+	// Tạo thư muc react từ câu lệnh
+	
+	gitBashHere ở folder bên ngoài
+
+	// chạy lệnh : npx create-react-app tenthumuc(viết thg k viết hoa)

@@ -1,0 +1,64 @@
+React(f8)
+
+	1. Let , const
+	2. Template Literals
+	3. Multi-line String
+	4. Arrow fuction
+	5. Classes
+	6. Enhanced object literals
+	7. Default parameter values
+	8. Destructuring 
+	9. Rest parameters
+	10.Spread
+	11.Tagged template literal
+	12. Modiles
+
+=========================================================================================
+React DOM
+JSX
+React element type
+Khái niệm props
+DOM events
+
+==========================================================================================
+
+Create react app
+
+React Hook : 
+	
+	1. useState (two-way binding , todolist, mounted & unmounted)
+
+		+ Cú pháp : 
+			import {useState} from 'react'
+			const {state, setState} = useState(default value of state);
+
+	2. useEffect (sd khi side effects )
+		
+		Các kiến thức cần có : Events : Add / remove event listener
+		Observer pattern : Subscribe / unsubscribe
+		Closure
+		Times: setInterval, setTimeout, clearInterval, clearTimeout
+		useState
+		Mounted / unmounted
+		===
+		call API
+
+		Các kiến thức cần học (Ứng dụng của useEffect khi sử dụng)
+			+ Update DOM
+			+ Call API
+			+ Listen DOM events (Scroll, Resize)
+			+ Cleanup (Remove listener / unsubscribe, Clear timer )
+
+		//Các trường hợp sử dụng useEffect
+		1. useEffect(Callback)
+			+ Gọi call back mỗi khi component re-render
+			+ Gọi Callback sau mỗi khi component thêm element vào DOM
+		2. useEffect(Callback, [])
+			+ Chỉ gọi Callback 1 lần sau khi mounted
+		3. useEffect(Callback, [deps])
+		TH1. Callback luôn đực goijn sau khi component mounted
+
+
+
+
+ 
